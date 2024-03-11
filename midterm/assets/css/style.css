@@ -1,0 +1,376 @@
+/* ----------home page---------- */
+#menu-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+    /* border: 80px solid #000000 */
+    margin: 30px 0px 30px 0px;
+    /* box-shadow: 10px 5px 5px rgba(234, 202, 34, 0.6); */
+    box-shadow: 10px 5px 5px rgba(103, 103, 103, 0.3);
+}
+
+#main-body {
+    background: radial-gradient(rgb(234, 202, 34), rgb(208, 156, 156));
+}
+
+
+.logo a:link {
+    text-decoration: none;
+    font-family: "Protest Guerrilla";
+    color: rgb(220, 190, 39);
+    font-size: 60px;
+    /* font-weight: bold; */
+    /* text-shadow: 1px 1px 2px rgb(154, 154, 154); */
+    text-shadow: 3px 3px 7px rgb(235, 235, 157);
+}
+
+.logo a:visited {
+    text-decoration: none;
+    font-family: "Protest Guerrilla";
+    color: rgb(220, 190, 39);
+    font-size: 60px;
+    /* font-weight: bold; */
+    /* text-shadow: 1px 1px 2px rgb(154, 154, 154); */
+    text-shadow: 3px 3px 7px rgb(235, 235, 157);
+}
+
+.pages a:link {
+    text-decoration: none;
+    font-family: "Josefin Sans";
+    color: black;
+}
+.pages a:visited {
+    text-decoration: none;
+    font-family: "Josefin Sans";
+    color: black;
+}
+
+.clicked a:link {
+    text-decoration: none;
+    font-family: "Josefin Sans";
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(211, 181, 32);
+    font-size: 1.1rem;
+}
+
+.clicked a:visited {
+    text-decoration: none;
+    font-family: "Josefin Sans";
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(211, 181, 32);
+    font-size: 1.1rem;
+}
+
+#popular-drinks-list {
+    font-family: 'Josefin Slab';
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 1);
+    /* text-shadow: 3px 3px 3px rgb(244, 207, 25); */
+    text-shadow: 4px 4px rgba(9, 8, 1, 0.301);
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-style: italic;
+    /* text-decoration: underline; */
+}
+
+.drinks {
+    font-family: 'Jost';
+    text-align: center;
+}
+.drinks img {
+    width: 200px;
+}
+
+#popular-drinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.rows {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.space {
+    height: 30px;
+}
+
+
+
+
+
+/* ----------COFFEE BEANS page---------- */
+
+#coffee-beans-body {
+    background-color: rgb(199, 166, 146);
+}
+
+#types {
+    display: flex;
+    flex-direction: column;
+    
+    /* padding-left: 5%;
+    padding-right: 5%; */
+    justify-items: center;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: baseline;
+}
+
+.left {
+    font-family: 'Josefin Slab';
+    font-style: italic;
+    width: 250px;
+}
+
+.right {
+    font-family: 'Jost';
+    
+}
+
+h1, h2 {
+    font-family: 'Jost';
+}
+
+h1 {
+    color: rgb(147, 124, 11);
+}
+
+.block {
+    height: 97px;
+}
+
+#type1, #type2, #type3, #type4, #type5 {
+    background: rgba(255, 255, 255, 0.6);
+    /* width: 80%; */
+    box-shadow: 5px 5px 5px rgba(234, 202, 34, 0.4);
+}
+
+#type1, #type3, #type5 {
+    margin-right: 15%;
+    margin-left: 3%;
+}
+
+#type2, #type4 {
+    margin-right: 3%;
+    margin-left: 15%;
+}
+
+.space {
+    width: 50px;
+}
+
+#type1 {
+    float: right;
+}
+
+#coffee-beans-list {
+    font-family: 'Josefin Slab';
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    /* text-shadow: 3px 3px 3px rgb(244, 207, 25); */
+    text-shadow: 4px 4px rgb(147, 124, 11);
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-style: italic;
+    /* text-decoration: underline; */
+}
+
+#page-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.coffee-image img {
+    width: 255px;
+}
+
+/* ----------ABOUT US page---------- */
+
+#about-us-body {
+    /* background: radial-gradient(rgba(109, 86, 9, 0.529), #a08209); */
+    background-color: wheat;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#five-parts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.each-part {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.title-of-each-part {
+    font-family: 'Josefin Slab';
+    font-weight: bold;
+    font-size: 37px;
+    /* text-decoration: underline; */
+    color: black;
+    /* text-shadow: 5px 5px 10px rgb(220, 190, 39); */
+    /* text-shadow: #FC0 3px 0 20px; */
+    text-shadow: 5px 5px #FC0;
+}
+
+#images {
+    display: flex;
+    flex-direction: row;
+}
+
+.name {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.position {
+    text-align: center;
+}
+
+.content-of-each-part {
+    font-family: 'Jost';
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content-of-each-part img {
+    width: 300px;
+}
+
+.img-part img {
+    width: 250px;
+}
+
+.non-img-part {
+    padding-left: 5%;
+}
+
+
+
+/* ----------EVENTS page---------- */
+
+#events-body {
+    background: radial-gradient(wheat, thistle);
+    /* background-color: thistle; */
+}
+
+#events-coming-soon {
+    font-family: 'Josefin Slab';
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    color: black;
+    font-style: italic;
+    text-shadow: 5px 5px rgba(191, 116, 191, 0.562);
+}
+
+.content {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.sub-title {
+    font-family: 'Josefin Slab';
+    font-weight: bold;
+    font-size: 30px;
+    color:rgba(112, 13, 112, 0.74);
+    /* text-shadow: 4px 4px 7px white; */
+    text-shadow: white 4px 0 6px;
+    
+}
+
+.info {
+    font-family: 'Jost';
+    font-size: 20px;
+}
+
+.info img {
+    width: 450px;
+}
+
+/* ----------AWARDS page---------- */
+
+#awards-body {
+    background: radial-gradient(#e3d56a, white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#sodoi-award-recipients {
+    font-family: 'Josefin Slab';
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    color: black;
+    font-style: italic;
+    text-shadow: 5px 5px #ffffff;
+}
+
+#two-winners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    /* padding-bottom: 50%; */
+    padding-left: 27%;
+    padding-right: 27%;
+}
+
+.recipient {
+    padding-bottom: 20%;
+    align-content: center;
+    align-items: center;
+}
+
+.winner-name {
+    font-family:'Josefin Slab';
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.winner-description {
+    font-family:'Jost';
+    font-size: 20px;
+    text-align: center;
+}
+
+.winner-photo img {
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
