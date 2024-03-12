@@ -36,6 +36,8 @@
     text-shadow: 3px 3px 7px rgb(235, 235, 157);
 }
 
+
+
 .pages a:link {
     text-decoration: none;
     font-family: "Josefin Sans";
@@ -45,6 +47,10 @@
     text-decoration: none;
     font-family: "Josefin Sans";
     color: black;
+}
+
+.pages a:hover{
+    font-size: 120%;
 }
 
 .clicked a:link {
@@ -64,6 +70,10 @@
     color: rgb(211, 181, 32);
     font-size: 1.1rem;
 }
+
+/* .clicked a:hover {
+    font-size: 120%;
+} */
 
 #popular-drinks-list {
     font-family: 'Josefin Slab';
