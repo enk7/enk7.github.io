@@ -1,4 +1,4 @@
-/* ----------home page---------- */
+/* ----------home page & main menu---------- */
 #menu-bar {
     display: flex;
     flex-direction: row;
@@ -81,7 +81,7 @@
     font-size: 40px;
     color: rgba(255, 255, 255, 1);
     /* text-shadow: 3px 3px 3px rgb(244, 207, 25); */
-    text-shadow: 4px 4px rgba(9, 8, 1, 0.301);
+    text-shadow: 3px 4px rgb(108, 107, 106);
     text-align: center;
     padding-top: 4%;
     padding-bottom: 4%;
@@ -92,6 +92,7 @@
 .drinks {
     font-family: 'Jost';
     text-align: center;
+    font-weight: bold;
 }
 .drinks img {
     width: 200px;
@@ -171,13 +172,15 @@ h1 {
 }
 
 #type1, #type3, #type5 {
-    margin-right: 15%;
+    margin-right: 20%;
     margin-left: 3%;
+    padding-left: 1%;
 }
 
 #type2, #type4 {
     margin-right: 3%;
-    margin-left: 15%;
+    margin-left: 20%;
+    padding-left: 1%;
 }
 
 .space {
@@ -226,8 +229,9 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 24%;
+    padding-right: 24%;
+    
 }
 
 .each-part {
@@ -249,12 +253,20 @@ h1 {
 #images {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* margin-right: 20%; */
+}
+
+#images img {
+    width: 100%;
 }
 
 .name {
     text-align: center;
     font-weight: bold;
     text-decoration: underline;
+    font-size: 24px;
 }
 
 .position {
@@ -268,12 +280,20 @@ h1 {
     justify-content: space-between;
 }
 
+#the-team {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 10px;
+}
+
 .content-of-each-part img {
     width: 300px;
 }
 
 .img-part img {
-    width: 250px;
+    width: 290px;
+    padding-top: 7%
 }
 
 .non-img-part {
