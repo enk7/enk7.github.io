@@ -1,0 +1,671 @@
+/* home page */
+
+.home-body {
+    background: url("../img/dining-table\(resized\).png")
+}
+
+#title {
+    font-size: 130px;
+    text-align: left;
+    font-family: Katibeh;
+    color: rgb(255, 255, 255);
+    margin-top: 55px;
+    margin-left: 40px;
+    text-shadow: rgb(125, 75, 15) 6px 6px;
+}
+
+#food1 {
+    position: absolute;
+    top: 420px;
+    left: 200px;
+    animation-name: bounce;
+    animation-duration: 3.8s;
+    animation-iteration-count: infinite;
+   
+}
+
+
+#food2 {
+    position: absolute;
+    top: 500px;
+    left: 470px;
+    animation-name: bounce;
+    animation-duration: 3.8s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+}
+
+
+#food3 {
+    position: absolute;
+    top: 487px;
+    left: 790px;
+    animation-name: bounce;
+    animation-duration: 3.8s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+#food4 {
+    position: absolute;
+    top: 390px;
+    left: 1060px;
+    animation-name: bounce;
+    animation-duration: 3.8s;
+    animation-iteration-count: infinite;
+    animation-delay: 1.5s;
+}
+
+#food1 img, #food2 img, #food3 img, #food4 img {
+    width: 215px;
+    height: 195px;
+}
+
+.food-buttons #food1 {
+    animation-name: bounce;
+    /* animation-iteration-count: infinite; */
+    cursor: pointer;
+}
+#food1 img {
+    animation-name: bounce;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+    0% {
+		/* position: static; */
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-20px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+/* menu-bar & features applied to all pages */
+.menu-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: white;
+    width: 100vw;
+    position: fixed;
+    left:0;
+    right:0;
+    top: 0;
+}
+
+.home, .lemon-garlic-shrimp, .beef-stir-fry, .chicken-saltimbocca, .quinoa-salad {
+    padding-left: 34px;
+    padding-top: 14px;
+    padding-bottom: 8px;
+    font-family: Katibeh;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.menu-bar a:link {
+    color: black;
+    text-decoration: none;
+}
+
+.menu-bar a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+ul.ingredients-list {
+    list-style-type: square;
+}
+
+
+
+
+/* food1 page */
+#food1-body {
+    background-color: #E8BD8B;
+}
+
+#food1-body .menu-bar .lemon-garlic-shrimp a {
+    color: #E87D00;
+}
+
+#food1-body .home:hover,#food1-body .beef-stir-fry:hover, #food1-body .chicken-saltimbocca:hover,#food1-body .quinoa-salad:hover {
+    text-shadow: 0px 0px 20px #E87D00;
+}
+
+#food1-title {
+    font-family: Katibeh;
+    font-size: 100px;
+    color: #E87D00;
+    text-shadow: 0px 0px 20px white;
+    margin-top: 2px;
+    margin-left: 50px;
+}
+
+#food1-image {
+    position: absolute;
+    top: 110px;
+    right: 120px;
+    
+}
+
+#food1-image img {
+    width: 400px;
+    height: 260px;
+    box-shadow: 10px 5px 5px #E87D00;
+}
+
+#food1-ingredients {
+    font-family: Bellefair;
+    color: white;
+    position: absolute;
+    left: 50px;
+    top: 190px;
+    width: 19%;
+    font-size: 25px;
+}
+
+#food1-first-step, #food1-second-step, #food1-third-step, #food1-fourth-step {
+    font-family: Bellefair;
+    color: #8C4F23;
+    font-size: 22px;
+}
+
+#food1-first-step {
+    width: 23%;
+    position: absolute;
+    left: 560px;
+    top: 190px;
+}
+
+#arrow1-1 {
+    position: absolute;
+    left: 440px;
+    top: 240px;
+}
+
+#food1-second-step {
+    width: 23%;
+    position: absolute;
+    left: 350px;
+    top: 340px;
+    text-align: center;
+}
+
+#arrow1-2 {
+    position: absolute;
+    left: 400px;
+    top: 480px;
+}
+
+#food1-third-step {
+    width: 26%;
+    position: absolute;
+    left: 600px;
+    top: 500px;
+    text-align: center;
+}
+
+#arrow1-3 {
+    position: absolute;
+    left: 987px;
+    top: 570px;
+}
+
+#food1-fourth-step {
+    width: 20%;
+    position: absolute;
+    left: 1090px;
+    top: 540px;
+    text-align: center;
+}
+
+#food1-ingredient-box {
+    position: absolute;
+    top: 20px;
+    left: 18px;
+    z-index:-999;
+    background: rgba(232, 124, 0, 0.783);
+    border-radius: 15px;
+    filter: blur(7px);
+    width: 249px;
+    height: 500px;
+}
+
+/* #food1-see-more {
+    position: absolute;
+    top: 385px;
+    right: 120px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: Katibeh;
+    font-size: 16px;
+    border-radius: 25px;
+    text-align: center;
+    height: 40px;
+    width: 90px;
+    border-style: solid;
+    border-width: medium;
+    border-color: white;
+} */
+
+button {
+    position: absolute;
+    top: 385px;
+    right: 120px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: Katibeh;
+    font-size: 16px;
+    border-radius: 25px;
+    text-align: center;
+    height: 40px;
+    width: 90px;
+    border-style: solid;
+    border-width: medium;
+    border-color: white;
+}
+button:hover {
+    box-shadow: 2px 2px 10px black;
+    cursor: pointer;
+}
+
+
+/* food2 page */
+#food2-body {
+    background-color: #C7A999;
+}
+
+#food2-body .menu-bar .beef-stir-fry a {
+    color: #745748;
+}
+
+#food2-body .home:hover,#food2-body .lemon-garlic-shrimp:hover, #food2-body .chicken-saltimbocca:hover,#food2-body .quinoa-salad:hover {
+    text-shadow: 0px 0px 20px #745748;
+}
+
+#food2-title {
+    font-family: Katibeh;
+    font-size: 100px;
+    color: #745748;
+    text-shadow: 0px 0px 20px white;
+    margin-top: 2px;
+    margin-left: 50px;
+}
+
+#food2-image {
+    position: absolute;
+    top: 110px;
+    right: 120px;
+}
+
+#food2-image img {
+    width: 400px;
+    height: 260px;
+    box-shadow: 10px 5px 5px #604226;
+}
+
+#food2-ingredients {
+    font-family: Bellefair;
+    color: white;
+    position: absolute;
+    left: 50px;
+    top: 199px;
+    width: 19%;
+    font-size: 20px;
+}
+
+#food2-first-step, #food2-second-step, #food2-third-step {
+    font-family: Bellefair;
+    color: #604226;
+    font-size: 22px;
+}
+
+#food2-first-step {
+    width: 25%;
+    position: absolute;
+    left: 490px;
+    top: 190px;
+    text-align: center;
+}
+
+#arrow2-1 {
+    position: absolute;
+    left: 405px;
+    top: 350px;
+}
+
+#food2-second-step {
+    width: 17%;
+    position: absolute;
+    left: 460px;
+    top: 470px;
+    text-align: center;
+}
+
+#arrow2-2 {
+    position: absolute;
+    left: 730px;
+    top: 520px;
+}
+
+#food2-third-step {
+    width: 32%;
+    position: absolute;
+    left: 860px;
+    top: 440px;
+    text-align: center;
+}
+
+#food2-ingredient-box {
+    position: absolute;
+    top: 13px;
+    left: 18px;
+    z-index:-999;
+    background: rgba(96,66,38, 0.786);
+    border-radius: 15px;
+    filter: blur(7px);
+    width: 259px;
+    height: 478px;
+}
+
+/* #food2-see-more {
+    position: absolute;
+    top: 385px;
+    right: 120px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: Katibeh;
+    font-size: 16px;
+    border-radius: 25px;
+    text-align: center;
+    height: 40px;
+    width: 90px;
+    border-style: solid;
+    border-width: medium;
+    border-color: white;
+}
+#food2-see-more:hover {
+    box-shadow: 2px 2px 10px black;
+    cursor: pointer;
+} */
+
+
+
+
+/* food3 page */
+#food3-body {
+    background-color: #edde92;
+}
+
+#food3-body .menu-bar .chicken-saltimbocca a {
+    color: #DEAE00;
+}
+
+#food3-body .home:hover,#food3-body .lemon-garlic-shrimp:hover,#food3-body .beef-stir-fry:hover,#food3-body .quinoa-salad:hover {
+    text-shadow: 0px 0px 20px #DEAE00;
+}
+
+#food3-title {
+    font-family: Katibeh;
+    font-size: 100px;
+    color: #DEAE00;
+    text-shadow: 0px 0px 20px white;
+    margin-top: 2px;
+    margin-left: 50px;
+}
+
+#food3-image {
+    position: absolute;
+    top: 110px;
+    right: 120px;
+}
+
+#food3-image img {
+    width: 400px;
+    height: 260px;
+    box-shadow: 10px 5px 5px #DEAE00;
+}
+
+#food3-ingredients {
+    font-family: Bellefair;
+    color: white;
+    position: absolute;
+    left: 50px;
+    top: 199px;
+    width: 19%;
+    font-size: 25px;
+}
+
+#food3-first-step, #food3-second-step, #food3-third-step, #food3-fourth-step {
+    font-family: Bellefair;
+    color: #86783D;
+    font-size: 20px;
+}
+
+#food3-first-step {
+    width: 25%;
+    position: absolute;
+    left: 540px;
+    top: 190px;
+    text-align: center;
+}
+
+#arrow3-1 {
+    position: absolute;
+    left: 420px;
+    top: 250px;
+}
+
+#food3-second-step {
+    width: 10%;
+    position: absolute;
+    left: 380px;
+    top: 330px;
+    text-align: center;
+}
+
+#arrow3-2 {
+    position: absolute;
+    left: 413px;
+    top: 600px;
+}
+
+#food3-third-step {
+    width: 12%;
+    position: absolute;
+    left: 580px;
+    top: 370px;
+    text-align: center;
+}
+
+#arrow3-3 {
+    position: absolute;
+    left: 700px;
+    top: 350px;
+}
+
+#food3-fourth-step {
+    width: 36%;
+    position: absolute;
+    left: 830px;
+    top: 420px;
+    text-align: center;
+}
+
+#food3-ingredient-box {
+    position: absolute;
+    top: 13px;
+    left: 18px;
+    z-index:-999;
+    background: rgba(222,174,0, 0.786);
+    border-radius: 15px;
+    filter: blur(7px);
+    width: 264px;
+    height: 454px;
+}
+
+/* #food3-see-more {
+    position: absolute;
+    top: 385px;
+    right: 120px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: Katibeh;
+    font-size: 16px;
+    border-radius: 25px;
+    text-align: center;
+    height: 40px;
+    width: 90px;
+    border-style: solid;
+    border-width: medium;
+    border-color: white;
+}
+#food3-see-more:hover {
+    box-shadow: 2px 2px 10px black;
+    cursor: pointer;
+} */
+
+
+
+
+/* food4 page */
+#food4-body {
+    background-color: #B3C4AF;
+}
+
+#food4-body .menu-bar .quinoa-salad a {
+    color: #597250;
+}
+
+#food4-body .home:hover,#food4-body .lemon-garlic-shrimp:hover,#food4-body .beef-stir-fry:hover, #food4-body .chicken-saltimbocca:hover {
+    text-shadow: 0px 0px 20px #597250;
+}
+
+#food4-title {
+    font-family: Katibeh;
+    font-size: 100px;
+    color: #597250;
+    text-shadow: 0px 0px 20px white;
+    margin-top: 2px;
+    margin-left: 50px;
+}
+
+#food4-image {
+    position: absolute;
+    top: 110px;
+    right: 120px;
+}
+
+#food4-image img {
+    width: 400px;
+    height: 260px;
+    box-shadow: 10px 5px 5px #597250;
+}
+
+#food4-ingredients {
+    font-family: Bellefair;
+    color: white;
+    position: absolute;
+    left: 50px;
+    top: 180px;
+    width: 19%;
+    font-size: 19px;
+}
+
+#food4-first-step, #food4-second-step, #food4-third-step, #food4-fourth-step {
+    font-family: Bellefair;
+    color: #1b5133;
+    font-size: 20px;
+}
+
+#food4-first-step {
+    width: 30%;
+    position: absolute;
+    left: 400px;
+    top: 190px;
+    text-align: center;
+}
+
+#arrow4-1 {
+    position: absolute;
+    left: 390px;
+    top: 390px;
+}
+
+#food4-second-step {
+    width: 10%;
+    position: absolute;
+    left: 410px;
+    top: 495px;
+    text-align: center;
+}
+
+#arrow4-2 {
+    position: absolute;
+    left: 530px;
+    top: 625px;
+}
+
+#food4-third-step {
+    width: 10%;
+    position: absolute;
+    left: 630px;
+    top: 435px;
+    text-align: center;
+}
+
+#arrow4-3 {
+    position: absolute;
+    left: 770px;
+    top: 435px
+}
+
+#food4-fourth-step {
+    width: 30%;
+    position: absolute;
+    left: 845px;
+    top: 490px;
+    text-align: center;
+}
+
+#food4-ingredient-box {
+    position: absolute;
+    top: 12px;
+    left: 18px;
+    z-index:-999;
+    background: rgba(89,114,80, 0.786);
+    border-radius: 15px;
+    filter: blur(7px);
+    width: 264px;
+    height: 520px;
+}
+
+/* #food4-see-more {
+    position: absolute;
+    top: 385px;
+    right: 120px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: Katibeh;
+    font-size: 16px;
+    border-radius: 25px;
+    text-align: center;
+    height: 40px;
+    width: 90px;
+    border-style: solid;
+    border-width: medium;
+    border-color: white;
+}
+#food4-see-more:hover {
+    box-shadow: 2px 2px 10px black;
+    cursor: pointer;
+} */
