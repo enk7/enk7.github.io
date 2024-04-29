@@ -9,7 +9,7 @@ nb4.onclick = function() {
     close4.style.visibility = 'visible';
 };
 
-close1.onclick = function() {
-    nt1.style.visibility = 'hidden';
-    close1.style.visibility = 'hidden';
+close4.onclick = function() {
+    nt4.style.visibility = 'hidden';
+    close4.style.visibility = 'hidden';
 }
