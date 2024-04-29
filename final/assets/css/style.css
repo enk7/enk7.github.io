@@ -278,6 +278,68 @@ button:hover {
     cursor: pointer;
 }
 
+table.nutrition-table {
+    z-index: 998;
+    border: 1.5px solid;
+    border-collapse: collapse;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.81);
+    font-family: Outfit;
+    width: 47%;
+    font-size: 33px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nutrition-table td {
+    border: 1px solid rgb(138, 138, 138);
+    height: 50px;
+    vertical-align: center;
+    font-size: 17px;
+    text-align: center;
+    /* font-family: Bellefair; */
+}
+
+.nutrition-table th {
+    border: 1px solid rgb(138, 138, 138);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nutrition-button {
+    font-family: Katibeh;
+    position: absolute;
+    top: 86px;
+    right: 128px;
+    text-decoration: underline;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.nutrition-button:hover, #close1:hover, #close2:hover, #close3:hover, #close4:hover {
+    cursor: pointer;
+}
+
+#close1 {
+    z-index: 999;
+    position: absolute;
+    top: 170px;
+    left: 400px;
+    color: white;
+    background-color: black;
+}
+
+.nutrition-table {
+	visibility: hidden;
+}
+
+.nutrition-close-button {
+    visibility: hidden;
+}
+
+
 
 /* food2 page */
 #food2-body {
@@ -397,6 +459,15 @@ button:hover {
     box-shadow: 2px 2px 10px black;
     cursor: pointer;
 } */
+
+#close2 {
+    z-index: 999;
+    position: absolute;
+    top: 144px;
+    left: 400px;
+    color: white;
+    background-color: black;
+}
 
 
 
@@ -534,6 +605,15 @@ button:hover {
     cursor: pointer;
 } */
 
+#close3 {
+    z-index: 999;
+    position: absolute;
+    top: 144px;
+    left: 400px;
+    color: white;
+    background-color: black;
+}
+
 
 
 
@@ -669,3 +749,12 @@ button:hover {
     box-shadow: 2px 2px 10px black;
     cursor: pointer;
 } */
+
+#close4 {
+    z-index: 999;
+    position: absolute;
+    top: 169px;
+    left: 400px;
+    color: white;
+    background-color: black;
+}
