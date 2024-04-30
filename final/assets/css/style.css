@@ -240,23 +240,6 @@ ul.ingredients-list {
     height: 500px;
 }
 
-/* #food1-see-more {
-    position: absolute;
-    top: 385px;
-    right: 120px;
-    background-color: rgb(0, 0, 0);
-    color: white;
-    font-family: Katibeh;
-    font-size: 16px;
-    border-radius: 25px;
-    text-align: center;
-    height: 40px;
-    width: 90px;
-    border-style: solid;
-    border-width: medium;
-    border-color: white;
-} */
-
 button {
     position: absolute;
     top: 385px;
@@ -443,27 +426,6 @@ table.nutrition-table {
     height: 478px;
 }
 
-/* #food2-see-more {
-    position: absolute;
-    top: 385px;
-    right: 120px;
-    background-color: rgb(0, 0, 0);
-    color: white;
-    font-family: Katibeh;
-    font-size: 16px;
-    border-radius: 25px;
-    text-align: center;
-    height: 40px;
-    width: 90px;
-    border-style: solid;
-    border-width: medium;
-    border-color: white;
-}
-#food2-see-more:hover {
-    box-shadow: 2px 2px 10px black;
-    cursor: pointer;
-} */
-
 #close2 {
     z-index: 999;
     position: absolute;
@@ -588,27 +550,6 @@ table.nutrition-table {
     height: 454px;
 }
 
-/* #food3-see-more {
-    position: absolute;
-    top: 385px;
-    right: 120px;
-    background-color: rgb(0, 0, 0);
-    color: white;
-    font-family: Katibeh;
-    font-size: 16px;
-    border-radius: 25px;
-    text-align: center;
-    height: 40px;
-    width: 90px;
-    border-style: solid;
-    border-width: medium;
-    border-color: white;
-}
-#food3-see-more:hover {
-    box-shadow: 2px 2px 10px black;
-    cursor: pointer;
-} */
-
 #close3 {
     z-index: 999;
     position: absolute;
@@ -732,27 +673,6 @@ table.nutrition-table {
     width: 264px;
     height: 520px;
 }
-
-/* #food4-see-more {
-    position: absolute;
-    top: 385px;
-    right: 120px;
-    background-color: rgb(0, 0, 0);
-    color: white;
-    font-family: Katibeh;
-    font-size: 16px;
-    border-radius: 25px;
-    text-align: center;
-    height: 40px;
-    width: 90px;
-    border-style: solid;
-    border-width: medium;
-    border-color: white;
-}
-#food4-see-more:hover {
-    box-shadow: 2px 2px 10px black;
-    cursor: pointer;
-} */
 
 #close4 {
     z-index: 999;
